@@ -1,0 +1,113 @@
+body {
+	background-image: url('../imagenes/fondo.jpg');
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+header{
+	font-family: 'Gorditas', cursive;
+}
+
+footer{
+	
+}
+
+#contenido{
+	margin: 0 auto;
+	text-align: center;
+	width: 820px;
+}
+
+#contenido ul{
+	padding-left: 15px;
+}
+
+
+#manuales, #talleres, #laboratorios{
+	background-color: #555555;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #9f9f9f;
+	color: #fff;
+	display: inline-block;
+	height: 250px;
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	vertical-align: top;
+	width: 230px;
+	
+	behavior: url(PIE.htc);
+}
+
+#clases:hover, #avisos:hover, #manuales:hover, #talleres:hover, #laboratorios:hover{
+	background-color: #486a78;
+}
+
+#clases{
+	background-color: #555555;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #9f9f9f;
+	color: #fff;
+	display: inline-block;
+	height: 200px;
+	margin: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:5px;
+	text-align: left;
+	vertical-align: top;
+	width: 505px;
+	
+	behavior: url(PIE.htc);
+}
+
+#avisos{
+	background-color: #555555;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #9f9f9f;
+	color: #fff;
+	display: inline-block;
+	height: 200px;
+	margin: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:5px;
+	text-align: left;
+	vertical-align: top;
+	width: 230px;
+	
+	behavior: url(PIE.htc);
+}
+
+#avisos ul li{
+	color:#fffc00;
+}
+
+@font-face {
+    font-family: DeliciousRoman;
+    src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
+    font-weight:400;
+}
+
+a{
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #e9e7ae;
+}
+
+.titulo{
+	font-family: 'Gorditas', cursive;
+	font-size: 25px;
+	text-align: center;
+}
+
+footer{
+	letter-spacing: 5px;
+	padding: 10px;
+	text-align: center;
+}
