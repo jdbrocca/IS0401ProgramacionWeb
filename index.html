@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8" />
 		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
 		Remove this if you use the .htaccess -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<title>Programacion Web IS0401</title>
-		<meta name="description" content="" />
+		<meta name="description" content="Curso Programación Web IS0401 de la Universidad Peruana de la Américas. Aqui encontraras todos los materiales que se entregan en clase sobre las tecnologias web (HTML, CSS, JS, ...), Clases, Manuales, Laboratorios y Talleres." />
+        <meta name="keywords" content="web, programacion, programacion web, html, css, js, javascript, clases, universidad las americas, cursos, peru"
 		<meta name="author" content="Juan Brocca" />
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 		<link rel="stylesheet" type="text/css" href="css/estilos.css"  />
+    	<link rel="stylesheet" type="text/css" href="colorbox.css"  />
 		<link href='http://fonts.googleapis.com/css?family=Gorditas' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="js/modernizr-2.5.3.js"></script>
 		<script type="text/javascript" src="js/prefixfree.min.js"></script>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.colorbox.js"></script>
 		<script type="text/javascript">
         
           var _gaq = _gaq || [];
@@ -30,62 +33,79 @@
           })();
         
         </script>
+        <script type="text/javascript">  
+			// $(document).ready(function() {  
+				// $.fn.colorbox({href:"imagenes/smurfs_1600_clumsy.jpg", open:true});  
+			// });  
+		</script>  
 	</head>
 	<body>
 		<div>
 			<header>
-				<h1>Programación web<br>IS0401</h1>
+				<h1>Programación WEB<br>IS0401</h1>
 			</header>
 			<nav>
 			</nav>
 			<div id="contenido">
-				<section id="clases">
-					<center><span class="titulo">Clases</span></center>
-					<ul>
-						<li><a href="archivos/clases/SEMANA1.pptx" target="_blank">SEMANA 1 (HTML)</a></li>
-						<li><a href="archivos/clases/SEMANA2.pptx" target="_blank">SEMANA 2 (HTML)</a></li>
-						<li><a href="archivos/clases/SEMANA3.pptx" target="_blank">SEMANA 3 (CSS)</a></li>
-						<li><a href="archivos/clases/SEMANA5.pptx" target="_blank">SEMANA 5 (Javascript)</a></li>
-					</ul>
+				<section id="leftsection">
+					<article id="clases">
+						<center><span class="titulo">Clases</span></center>
+						<ul>
+							<li><a href="archivos/clases/SEMANA1.pptx" target="_blank">Semana 1 (HTML)</a></li>
+							<li><a href="archivos/clases/SEMANA2.pptx" target="_blank">Semana 2 (HTML)</a></li>
+							<li><a href="archivos/clases/SEMANA3.pptx" target="_blank">Semana 3 (CSS)</a></li>
+							<li><a href="archivos/clases/SEMANA5.pptx" target="_blank">Semana 5 (Javascript)</a></li>
+	                        <li><a href="archivos/clases/SEMANA6.pptx" target="_blank">Semana 6 (Javascript) <span class="nuevo">Nuevo</span></a></li>
+						</ul>
+					</article>						
+					<article id="manuales">
+						<center><span class="titulo">Manuales</span></center>
+						<ul>
+							<li><a href="archivos/manuales/Manual-HTML.pdf" target="_blank">HTML</a></li>
+							<li><a href="archivos/manuales/Manual-CSS.pdf" target="_blank">CSS</a></li>
+							<li>Javascript
+								<ul>
+									<li><a href="archivos/manuales/Manual-JS-Introduccion.pdf" target="_blank">Introducción</a></li>
+									<li><a href="archivos/manuales/Manual-JS-Parte1.pdf" target="_blank">Parte 1</a></li>
+									<li><a href="archivos/manuales/Manual-JS-Parte2.pdf" target="_blank">Parte 2</a></li>
+								</ul>
+							</li>
+						</ul>
+					</article>
+					<article id="talleres">
+						<center><span class="titulo">Talleres</span></center>
+						<ul>
+							<li><a href="archivos/talleres/Taller-HTML.pdf" target="_blank">HTML</a></li>
+							<li><a href="archivos/talleres/Taller-CSS.pdf" target="_blank">CSS</a></li>
+							<li><a href="archivos/talleres/Taller-JS.pdf" target="_blank">Javascript</a></li>
+						</ul>
+					</article>
+					<article id="laboratorios">
+						<center><span class="titulo">Laboratorios</span></center>
+						<ul>
+							<li><a href="archivos/laboratorios/LaboratorioHTML.pdf" target="_blank">HTML</a></li>
+							<li><a href="archivos/laboratorios/LaboratorioCSS.pdf" target="_blank">CSS</a></li>
+							<li><a href="archivos/laboratorios/TALLER DIRIGIDO EN CLASE JAVASCRIPT.docx" target="_blank">Javascript</a></li>
+	                        <li><a href="archivos/laboratorios/LABORATORIO_JAVASCRIPT.docx" target="_blank">Javascript 2</a></li>
+						</ul>					
+					</article>
 				</section>
-				<section id="avisos">
-					<center><span class="titulo">Avisos</span></center>
-					<ul>
-						<li>Entrega del trabajo de CSS plazo maximo Lunes 21 de Mayo.<br></li>
-						<li>Taller de CSS opcional plazo maximo Lunes 21 de Mayo.</li>
-					</ul>
+				<section id="rightsection">
+					<article id="avisos">
+						<center><span class="titulo">Avisos</span></center>
+						<ul>
+							<li>Entrega del trabajo de Javascript Jueves 31 de Mayo. <a href="archivos/laboratorios/LABORATORIO_JAVASCRIPT.docx" target="_blank">(Descargar)</a></li>
+						</ul>
+						<br><br>
+						<div id="descargas">
+							<center><span class="titulo">Descargas</span></center>
+							<br>
+							<a href="http://aptana.com/products/studio3/download#" rel="nofollow" target="_blank" alt="Aptana Studio" title="Aptana Studio"><img src="imagenes/aptana-logo.png" border="0"></a>&nbsp;&nbsp;
+							<a href="http://download.tuxfamily.org/notepadplus/6.1.2/npp.6.1.2.Installer.exe" target="_blank" rel="nofollow" alt="Notepad ++" title="Notepad ++"><img src="imagenes/notepad-logo.png" border="0"></a>&nbsp;&nbsp;
+							<a href="http://c758482.r82.cf2.rackcdn.com/Sublime Text 2 Build 2181 Setup.exe" target="_blank" rel="nofollow" alt="Sublime Text 2" title="Sublime Text 2" ><img src="imagenes/sublimetext-logo.png" border="0"></a>						
+						</div>
+					</article>						
 				</section>				
-				<section id="manuales">
-					<center><span class="titulo">Manuales</span></center>
-					<ul>
-						<li><a href="archivos/manuales/Manual-HTML.pdf" target="_blank">HTML</a></li>
-						<li><a href="archivos/manuales/Manual-CSS.pdf" target="_blank">CSS</a></li>
-						<li>Javascript
-							<ul>
-								<li><a href="archivos/manuales/Manual-JS-Introduccion.pdf" target="_blank">Introducción</a></li>
-								<li><a href="archivos/manuales/Manual-JS-Parte1.pdf" target="_blank">Parte 1</a></li>
-								<li><a href="archivos/manuales/Manual-JS-Parte2.pdf" target="_blank">Parte 2</a></li>
-							</ul>
-						</li>
-					</ul>
-				</section>
-				<section id="talleres">
-					<center><span class="titulo">Talleres</span></center>
-					<ul>
-						<li><a href="archivos/talleres/Taller-HTML.pdf" target="_blank">HTML</a></li>
-						<li><a href="archivos/talleres/Taller-CSS.pdf" target="_blank">CSS</a></li>
-						<li><a href="archivos/talleres/Taller-JS.pdf" target="_blank">Javascript</a></li>
-					</ul>
-				</section>
-				<section id="laboratorios">
-					<center><span class="titulo">Laboratorios</span></center>
-					<ul>
-						<li><a href="archivos/laboratorios/LaboratorioHTML.pdf" target="_blank">HTML</a></li>
-						<li><a href="archivos/laboratorios/LaboratorioCSS.pdf" target="_blank">CSS</a></li>
-						<li><a href="archivos/laboratorios/TALLER DIRIGIDO EN CLASE JAVASCRIPT.docx" target="_blank">Javascript</a></li>
-                        <li><a href="archivos/laboratorios/LABORATORIO_JAVASCRIPT.docx" target="_blank">Javascript 2 <span style="color:yellow">Nuevo</span></a></li>
-					</ul>					
-				</section>
 			</div>
 			<footer>
 				<strong>Correo:</strong> <a href="mailto:is0401programacionweb@gmail.com" style="color: #24549d" target="_blank">0401programacionweb@gmail.com</a>

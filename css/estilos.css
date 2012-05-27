@@ -1,22 +1,51 @@
 body {
 	background-image: url('../imagenes/fondo.jpg');
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: center;
+}
+
+footer{
 	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 10px;
 	text-align: center;
 }
 
 header{
 	font-family: 'Gorditas', cursive;
+	text-align: center;
 }
 
-footer{
+header h1{
+	font-size: 40px;
+}
+
+#avisos{
+	background-color: #555555;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #9f9f9f;
+	color: #fff;
+	height: 540px;
+	margin: 5px 0px 5px 2px;
+	padding: 5px 10px 5px 10px;
+	text-align: left;
+	vertical-align: top;
+	max-width: 200px;
 	
+	behavior: url(PIE.htc);
+}
+
+#avisos ul li{
+	color:#0DFFF9;
+	font-weight: bold;
 }
 
 #contenido{
 	margin: 0 auto;
 	text-align: center;
-	width: 820px;
+	max-width: 700px;
 }
 
 #contenido ul{
@@ -24,18 +53,18 @@ footer{
 }
 
 
-#manuales, #talleres, #laboratorios{
+#clases, #manuales, #talleres, #laboratorios{
 	background-color: #555555;
 	border-radius: 10px;
 	box-shadow: 3px 3px 5px #9f9f9f;
 	color: #fff;
 	display: inline-block;
 	height: 250px;
-	margin: 10px;
+	margin: 5px 5px 5px 5px;
 	padding: 10px;
 	text-align: left;
 	vertical-align: top;
-	width: 230px;
+	width: 200px;
 	
 	behavior: url(PIE.htc);
 }
@@ -44,50 +73,19 @@ footer{
 	background-color: #486a78;
 }
 
-#clases{
-	background-color: #555555;
-	border-radius: 10px;
-	box-shadow: 3px 3px 5px #9f9f9f;
-	color: #fff;
+#descargas{
+	text-align: center;
+}
+
+#leftsection{
 	display: inline-block;
-	height: 200px;
-	margin: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top:5px;
-	text-align: left;
-	vertical-align: top;
-	width: 505px;
-	
-	behavior: url(PIE.htc);
+	max-width: 470px;	
 }
 
-#avisos{
-	background-color: #555555;
-	border-radius: 10px;
-	box-shadow: 3px 3px 5px #9f9f9f;
-	color: #fff;
+#rightsection{
 	display: inline-block;
-	height: 200px;
-	margin: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top:5px;
-	text-align: left;
 	vertical-align: top;
-	width: 230px;
-	
-	behavior: url(PIE.htc);
-}
-
-#avisos ul li{
-	color:#fffc00;
-}
-
-@font-face {
-    font-family: DeliciousRoman;
-    src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
-    font-weight:400;
+	max-width: 240px;	
 }
 
 a{
@@ -100,14 +98,19 @@ a:hover{
 	color: #e9e7ae;
 }
 
+.nuevo{
+	color: #0DFFF9;
+	font-size: 12px;
+}
+
 .titulo{
 	font-family: 'Gorditas', cursive;
 	font-size: 25px;
 	text-align: center;
 }
 
-footer{
-	letter-spacing: 5px;
-	padding: 10px;
-	text-align: center;
+@font-face {
+    font-family: DeliciousRoman;
+    src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
+    font-weight:400;
 }
